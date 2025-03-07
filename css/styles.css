@@ -1,0 +1,37 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', serif;
+  line-height: 1.2;
+  color: #000;
+}
+
+.font-work-sans {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.font-inter-sans {
+  font-family: 'Inter', serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-bg {
+  background: url('../images/login-image.jpg') left bottom no-repeat scroll,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(153, 153, 153, 0.03) 100%
+    );
+  background-size: cover;
+  background-position: top center;
+}
