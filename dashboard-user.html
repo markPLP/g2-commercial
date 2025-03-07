@@ -17,7 +17,7 @@
     <main>
       <section class="flex overflow-hidden h-screen">
         <aside
-          class="border-r border-[#DBDBDB] max-w-[148px] sm:max-w-[248px] overflow-hidden transition-all duration-500 ease-in-out h-screen w-[135px] sm:w-[248px]"
+          class="hidden lg:block border-r border-[#DBDBDB] max-w-[148px] sm:max-w-[248px] overflow-hidden transition-all duration-500 ease-in-out h-full w-[135px] sm:w-[248px]"
         >
           <h1
             class="flex flex-col items-center gap-[7px] mb-0 font-normal font-['Times_New_Roman'] px-[19px] py-5 sm:flex-row"
@@ -149,7 +149,7 @@
         </aside>
         <section class="flex-1 overflow-auto bg-[#FCFBFA]">
           <div
-            class="bg-white grid grid-cols-[1fr,auto] gap-5 items-center h-[88px] p-5 sm:px-5 sm:pr-[48px] sm:py-[22px]"
+            class="max-w-[1189px] bg-white grid grid-cols-[1fr,auto] gap-5 items-center h-[88px] p-5 sm:px-5 sm:pr-[48px] sm:py-[22px]"
           >
             <div class="relative">
               <input
@@ -252,7 +252,7 @@
             </div>
           </div>
           <div
-            class="p-5 md:py-[28px] md:px-[43px] transition-all duration-500 ease-in-out"
+            class="max-w-[1189px] p-5 lg:py-[28px] lg:px-[43px] transition-all duration-500 ease-in-out"
           >
             <div class="w-full mb-[26px]">
               <div class="flex flex-col md:grid md:grid-cols-[1fr,auto] gap-5">
@@ -278,11 +278,13 @@
                 </button>
               </div>
             </div>
-            <!-- start user list -->
-            <div class="flex flex-row gap-4 flex-wrap flex-auto">
+            <!-- start user list flex flex-row flex-wrap flex-auto-->
+            <div
+              class="grid md:grid-cols-[1fr,1fr] xl:grid-cols-[1fr,1fr,1fr] gap-4"
+            >
               <!-- sign user cart -->
               <div
-                class="flex-1 min-w-[313px] max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
+                class="flex-1 xl:max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
               >
                 <!-- Profile Header -->
                 <div class="flex items-center gap-3 mb-[13px]">
@@ -348,7 +350,7 @@
               </div>
               <!-- sign user cart -->
               <div
-                class="flex-1 min-w-[313px] max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
+                class="flex-1 xl:max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
               >
                 <!-- Profile Header -->
                 <div class="flex items-center gap-3 mb-[13px]">
@@ -414,7 +416,7 @@
               </div>
               <!-- sign user cart -->
               <div
-                class="flex-1 min-w-[313px] max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
+                class="flex-1 xl:max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
               >
                 <!-- Profile Header -->
                 <div class="flex items-center gap-3 mb-[13px]">
@@ -480,7 +482,7 @@
               </div>
               <!-- sign user cart -->
               <div
-                class="flex-1 min-w-[313px] max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
+                class="flex-1 xl:max-w-[360px] w-full bg-white shadow-md rounded-lg px-4 pt-[21px] pb-3 border border-gray-200 transition-all duration-300 hover:-translate-y-2"
               >
                 <!-- Profile Header -->
                 <div class="flex items-center gap-3 mb-[13px]">
