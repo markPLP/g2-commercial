@@ -307,16 +307,20 @@
                 </div>
               </div>
             </div>
-            <div class="space-y-[14px]">
+            <div
+              class="sm:grid sm:grid-cols-[1fr,1fr] sm:gap-5 xl:block xl:space-y-[14px]"
+            >
               <!-- user list row -->
               <div
                 class="overflow-x-auto rounded-[4px] shadow-md border border-gray-200"
               >
                 <div
-                  class="min-w-max grid grid-cols-[228px,1fr,auto] items-center bg-white rounded-[4px] pl-5 pr-7 py-4 min-h-[90px]"
+                  class="block xl:min-w-max xl:grid lg:grid-cols-[228px,1fr,auto] items-center bg-white rounded-[4px] pl-5 pr-7 py-4 min-h-[90px]"
                 >
                   <!-- User Info -->
-                  <div class="flex items-center border-r border-[#B7B7B7]">
+                  <div
+                    class="flex mb-3 xl:mb-0 items-center xl:border-r xl:border-[#B7B7B7]"
+                  >
                     <img
                       src="./images/image-avatar.png"
                       alt="User"
@@ -348,9 +352,9 @@
 
                   <!-- User Details -->
                   <div
-                    class="flex items-center space-x-6 text-sm text-gray-600"
+                    class="grid grid-cols-[1fr,1fr] gap-4 mb-5 xl:mb-0 xl:flex xl:items-center xl:space-x-6 text-sm text-gray-600"
                   >
-                    <div class="ml-6">
+                    <div class="xl:ml-6">
                       <p
                         class="text-[#787486] font-inter-sans text-xs mb-[3px]"
                       >
@@ -406,7 +410,7 @@
                   </div>
 
                   <!-- Actions 2xl:flex-row -->
-                  <div class="flex flex-col gap-[6px] ml-5">
+                  <div class="flex flex-col gap-[6px] xl:ml-5">
                     <button
                       class="font-montserrat font-bold px-[10px] py-[4px] rounded-[4px] text-xs border border-[#9E9E9E] text-[#636363] hover:bg-gray-300"
                     >
@@ -425,10 +429,12 @@
                 class="overflow-x-auto rounded-[4px] shadow-md border border-gray-200"
               >
                 <div
-                  class="min-w-max grid grid-cols-[228px,1fr,auto] items-center bg-white rounded-[4px] pl-5 pr-7 py-4 min-h-[90px]"
+                  class="block xl:min-w-max xl:grid lg:grid-cols-[228px,1fr,auto] items-center bg-white rounded-[4px] pl-5 pr-7 py-4 min-h-[90px]"
                 >
                   <!-- User Info -->
-                  <div class="flex items-center border-r border-[#B7B7B7]">
+                  <div
+                    class="flex mb-3 xl:mb-0 items-center xl:border-r xl:border-[#B7B7B7]"
+                  >
                     <img
                       src="./images/image-avatar.png"
                       alt="User"
@@ -460,9 +466,9 @@
 
                   <!-- User Details -->
                   <div
-                    class="flex items-center space-x-6 text-sm text-gray-600"
+                    class="grid grid-cols-[1fr,1fr] gap-4 mb-5 xl:mb-0 xl:flex xl:items-center xl:space-x-6 text-sm text-gray-600"
                   >
-                    <div class="ml-6">
+                    <div class="xl:ml-6">
                       <p
                         class="text-[#787486] font-inter-sans text-xs mb-[3px]"
                       >
@@ -518,7 +524,121 @@
                   </div>
 
                   <!-- Actions 2xl:flex-row -->
-                  <div class="flex flex-col gap-[6px] ml-5">
+                  <div class="flex flex-col gap-[6px] xl:ml-5">
+                    <button
+                      class="font-montserrat font-bold px-[10px] py-[4px] rounded-[4px] text-xs border border-[#9E9E9E] text-[#636363] hover:bg-gray-300"
+                    >
+                      View User
+                    </button>
+                    <button
+                      class="font-montserrat font-bold px-[10px] py-[4px] rounded-[4px] text-xs border border-[#CE301D] text-[#fff] bg-[#CE301D] hover:bg-red-500 hover:border-red-500"
+                    >
+                      Add User
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- user list row -->
+              <div
+                class="overflow-x-auto rounded-[4px] shadow-md border border-gray-200"
+              >
+                <div
+                  class="block xl:min-w-max xl:grid lg:grid-cols-[228px,1fr,auto] items-center bg-white rounded-[4px] pl-5 pr-7 py-4 min-h-[90px]"
+                >
+                  <!-- User Info -->
+                  <div
+                    class="flex mb-3 xl:mb-0 items-center xl:border-r xl:border-[#B7B7B7]"
+                  >
+                    <img
+                      src="./images/image-avatar.png"
+                      alt="User"
+                      class="w-10 h-10 rounded-full"
+                    />
+                    <div class="ml-4">
+                      <h2 class="text-xs text-[#030303] flex items-center">
+                        Robert John Charlie
+                        <span class="ml-1 text-green-500">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                          >
+                            <path
+                              d="M14.3741 7.15907L13.4674 6.10573C13.2941 5.90573 13.1541 5.5324 13.1541 5.26573V4.1324C13.1541 3.42573 12.5741 2.84573 11.8674 2.84573H10.7341C10.4741 2.84573 10.0941 2.70573 9.8941 2.5324L8.84076 1.62573C8.38076 1.2324 7.62743 1.2324 7.16076 1.62573L6.11407 2.53907C5.91407 2.70573 5.53407 2.84573 5.27407 2.84573H4.12074C3.41407 2.84573 2.83407 3.42573 2.83407 4.1324V5.2724C2.83407 5.5324 2.69407 5.90573 2.5274 6.10573L1.6274 7.16574C1.24074 7.62574 1.24074 8.37241 1.6274 8.83241L2.5274 9.89241C2.69407 10.0924 2.83407 10.4657 2.83407 10.7257V11.8657C2.83407 12.5724 3.41407 13.1524 4.12074 13.1524H5.27407C5.53407 13.1524 5.91407 13.2924 6.11407 13.4657L7.16743 14.3724C7.62743 14.7657 8.38076 14.7657 8.84743 14.3724L9.90076 13.4657C10.1008 13.2924 10.4741 13.1524 10.7408 13.1524H11.8741C12.5808 13.1524 13.1608 12.5724 13.1608 11.8657V10.7324C13.1608 10.4724 13.3008 10.0924 13.4741 9.89241L14.3808 8.83907C14.7674 8.37907 14.7674 7.61907 14.3741 7.15907ZM10.7741 6.73907L7.5541 9.95907C7.46076 10.0524 7.3341 10.1057 7.20076 10.1057C7.06743 10.1057 6.94076 10.0524 6.84743 9.95907L5.23407 8.34574C5.04074 8.15241 5.04074 7.83241 5.23407 7.63907C5.4274 7.44574 5.7474 7.44574 5.94074 7.63907L7.20076 8.89907L10.0674 6.0324C10.2608 5.83907 10.5808 5.83907 10.7741 6.0324C10.9674 6.22573 10.9674 6.54573 10.7741 6.73907Z"
+                              fill="#58B660"
+                            />
+                          </svg>
+                        </span>
+                      </h2>
+                      <p class="text-xs text-[#787486]">
+                        CEO, Demo Company Inc
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- User Details -->
+                  <div
+                    class="grid grid-cols-[1fr,1fr] gap-4 mb-5 xl:mb-0 xl:flex xl:items-center xl:space-x-6 text-sm text-gray-600"
+                  >
+                    <div class="xl:ml-6">
+                      <p
+                        class="text-[#787486] font-inter-sans text-xs mb-[3px]"
+                      >
+                        Email
+                      </p>
+                      <p class="text-[#030303] font-inter-sans text-xs">
+                        example@gmail.com
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-[#787486] font-inter-sans text-xs mb-[3px]"
+                      >
+                        Phone
+                      </p>
+                      <p class="text-[#030303] font-inter-sans text-xs">
+                        +44 20 7123 456
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-[#787486] font-inter-sans text-xs mb-[3px]"
+                      >
+                        Location
+                      </p>
+                      <p class="text-[#030303] font-inter-sans text-xs">
+                        London, UK
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-[#787486] font-inter-sans text-xs mb-[3px]"
+                      >
+                        Jobs Posted
+                      </p>
+                      <p
+                        class="text-[#000] font-inter-sans text-xs font-medium"
+                      >
+                        Total <span class="font-normal">30</span>,
+                        <span class="text-[#CE301D]">3 Active</span>
+                      </p>
+                    </div>
+                    <div>
+                      <p
+                        class="text-[#787486] font-inter-sans text-xs mb-[3px]"
+                      >
+                        Completed
+                      </p>
+                      <p class="text-[#CE301D] font-medium text-[12px]">
+                        27 Jobs
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Actions 2xl:flex-row -->
+                  <div class="flex flex-col gap-[6px] xl:ml-5">
                     <button
                       class="font-montserrat font-bold px-[10px] py-[4px] rounded-[4px] text-xs border border-[#9E9E9E] text-[#636363] hover:bg-gray-300"
                     >
