@@ -148,107 +148,109 @@
           </nav>
         </aside>
         <section class="flex-1 overflow-auto bg-[#FCFBFA]">
-          <div
-            class="max-w-[1189px] bg-white grid grid-cols-[1fr,auto] gap-5 items-center h-[88px] p-5 sm:px-5 sm:pr-[48px] sm:py-[22px]"
-          >
-            <div class="relative">
-              <input
-                placeholder="Search for anything......"
-                class="bg-[#F5F5F5] text-gray-500 placeholder-[#787486] rounded-md pl-14 pr-4 py-2 focus:outline-none focus:ring-1 focus:ring-gray-200 h-[44px] w-full max-w-[417px]"
-                type="text"
-                value=""
-              /><svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="23"
-                height="22"
-                viewBox="0 0 23 22"
-                fill="none"
-                class="lucide lucide-search absolute left-3 top-2.5 text-gray-400"
-              >
-                <path
-                  d="M11.3416 19.25C16.1511 19.25 20.05 15.3511 20.05 10.5417C20.05 5.73219 16.1511 1.83333 11.3416 1.83333C6.53215 1.83333 2.6333 5.73219 2.6333 10.5417C2.6333 15.3511 6.53215 19.25 11.3416 19.25Z"
-                  stroke="#787486"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M20.9666 20.1667L19.1333 18.3333"
-                  stroke="#787486"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-            <!-- notication area -->
-            <div class="flex gap-4 md:gap-[11px] items-center">
-              <span class="has-notification relative cursor-pointer">
-                <span class="absolute -top-0 right-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="6"
-                    height="6"
-                    viewBox="0 0 6 6"
-                    fill="none"
-                  >
-                    <circle cx="3" cy="3" r="3" fill="#D8727D" />
-                  </svg>
-                </span>
-                <svg
+          <div class="bg-white">
+            <div
+              class="max-w-[1189px] grid grid-cols-[1fr,auto] gap-5 items-center h-[88px] p-5 sm:px-5 sm:pr-[48px] sm:py-[22px]"
+            >
+              <div class="relative">
+                <input
+                  placeholder="Search for anything......"
+                  class="bg-[#F5F5F5] text-gray-500 placeholder-[#787486] rounded-md pl-14 pr-4 py-2 focus:outline-none focus:ring-1 focus:ring-gray-200 h-[44px] w-full max-w-[417px]"
+                  type="text"
+                  value=""
+                /><svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
+                  width="23"
+                  height="22"
+                  viewBox="0 0 23 22"
                   fill="none"
-                  class="transition-all duration-300 hover:rotate-12"
+                  class="lucide lucide-search absolute left-3 top-2.5 text-gray-400"
                 >
                   <path
-                    d="M12.0196 2.91C8.7096 2.91 6.0196 5.6 6.0196 8.91V11.8C6.0196 12.41 5.7596 13.34 5.4496 13.86L4.2996 15.77C3.5896 16.95 4.0796 18.26 5.3796 18.7C9.6896 20.14 14.3396 20.14 18.6496 18.7C19.8596 18.3 20.3896 16.87 19.7296 15.77L18.5796 13.86C18.2796 13.34 18.0196 12.41 18.0196 11.8V8.91C18.0196 5.61 15.3196 2.91 12.0196 2.91Z"
+                    d="M11.3416 19.25C16.1511 19.25 20.05 15.3511 20.05 10.5417C20.05 5.73219 16.1511 1.83333 11.3416 1.83333C6.53215 1.83333 2.6333 5.73219 2.6333 10.5417C2.6333 15.3511 6.53215 19.25 11.3416 19.25Z"
                     stroke="#787486"
                     stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M13.8699 3.2C13.5599 3.11 13.2399 3.04 12.9099 3C11.9499 2.88 11.0299 2.95 10.1699 3.2C10.4599 2.46 11.1799 1.94 12.0199 1.94C12.8599 1.94 13.5799 2.46 13.8699 3.2Z"
-                    stroke="#787486"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                   <path
-                    d="M15.0195 19.06C15.0195 20.71 13.6695 22.06 12.0195 22.06C11.1995 22.06 10.4395 21.72 9.89953 21.18C9.35953 20.64 9.01953 19.88 9.01953 19.06"
+                    d="M20.9666 20.1667L19.1333 18.3333"
                     stroke="#787486"
                     stroke-width="1.5"
-                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                 </svg>
-              </span>
-              <div class="flex flex-col gap-1 md:pl-[31px]">
-                <button class="md:hidden">
-                  <img src="./images/image-avatar.png" alt="user avatar" />
-                </button>
-                <span class="hidden flex-col gap-[3px] md:flex">
-                  <span>Anima Agrawal</span>
-                  <span>Manchester, UK</span>
-                </span>
               </div>
-              <button class="hidden md:flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 18 18"
-                  fill="none"
-                >
-                  <path
-                    d="M8.99965 12.6C8.47465 12.6 7.94965 12.3975 7.55215 12L2.66215 7.11C2.44465 6.8925 2.44465 6.5325 2.66215 6.315C2.87965 6.0975 3.23965 6.0975 3.45715 6.315L8.34715 11.205C8.70715 11.565 9.29215 11.565 9.65215 11.205L14.5421 6.315C14.7596 6.0975 15.1197 6.0975 15.3372 6.315C15.5547 6.5325 15.5547 6.8925 15.3372 7.11L10.4472 12C10.0497 12.3975 9.52465 12.6 8.99965 12.6Z"
-                    fill="#292D32"
-                  />
-                </svg>
-              </button>
+              <!-- notication area -->
+              <div class="flex gap-4 md:gap-[11px] items-center">
+                <span class="has-notification relative cursor-pointer">
+                  <span class="absolute -top-0 right-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="6"
+                      height="6"
+                      viewBox="0 0 6 6"
+                      fill="none"
+                    >
+                      <circle cx="3" cy="3" r="3" fill="#D8727D" />
+                    </svg>
+                  </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="transition-all duration-300 hover:rotate-12"
+                  >
+                    <path
+                      d="M12.0196 2.91C8.7096 2.91 6.0196 5.6 6.0196 8.91V11.8C6.0196 12.41 5.7596 13.34 5.4496 13.86L4.2996 15.77C3.5896 16.95 4.0796 18.26 5.3796 18.7C9.6896 20.14 14.3396 20.14 18.6496 18.7C19.8596 18.3 20.3896 16.87 19.7296 15.77L18.5796 13.86C18.2796 13.34 18.0196 12.41 18.0196 11.8V8.91C18.0196 5.61 15.3196 2.91 12.0196 2.91Z"
+                      stroke="#787486"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13.8699 3.2C13.5599 3.11 13.2399 3.04 12.9099 3C11.9499 2.88 11.0299 2.95 10.1699 3.2C10.4599 2.46 11.1799 1.94 12.0199 1.94C12.8599 1.94 13.5799 2.46 13.8699 3.2Z"
+                      stroke="#787486"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M15.0195 19.06C15.0195 20.71 13.6695 22.06 12.0195 22.06C11.1995 22.06 10.4395 21.72 9.89953 21.18C9.35953 20.64 9.01953 19.88 9.01953 19.06"
+                      stroke="#787486"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                    />
+                  </svg>
+                </span>
+                <div class="flex flex-col gap-1 md:pl-[31px]">
+                  <button class="md:hidden">
+                    <img src="./images/image-avatar.png" alt="user avatar" />
+                  </button>
+                  <span class="hidden flex-col gap-[3px] md:flex">
+                    <span>Anima Agrawal</span>
+                    <span>Manchester, UK</span>
+                  </span>
+                </div>
+                <button class="hidden md:flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                  >
+                    <path
+                      d="M8.99965 12.6C8.47465 12.6 7.94965 12.3975 7.55215 12L2.66215 7.11C2.44465 6.8925 2.44465 6.5325 2.66215 6.315C2.87965 6.0975 3.23965 6.0975 3.45715 6.315L8.34715 11.205C8.70715 11.565 9.29215 11.565 9.65215 11.205L14.5421 6.315C14.7596 6.0975 15.1197 6.0975 15.3372 6.315C15.5547 6.5325 15.5547 6.8925 15.3372 7.11L10.4472 12C10.0497 12.3975 9.52465 12.6 8.99965 12.6Z"
+                      fill="#292D32"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
           <div
