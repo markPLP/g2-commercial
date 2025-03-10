@@ -80,6 +80,30 @@
             <p class="mb-[34px] font-work-sans">
               Login to your account below providing credentials.
             </p>
+            <!-- Error message -->
+            <div
+              class="mb-6 p-4 rounded-lg flex items-center gap-3 transition-all duration-300 bg-red-100 border border-red-300 text-red-800"
+            >
+              <svg
+                class="w-6 h-6 flex-shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <div class="flex-1">
+                <p class="font-medium">Error</p>
+                <p class="text-sm">
+                  The provided credentials do not match our records.
+                </p>
+              </div>
+            </div>
             <!-- FORM -->
             <form
               class="w-full mx-auto flex flex-col gap-[24px] onSubmit={handleSubmit}"
@@ -105,7 +129,7 @@
                         fill="#696969"
                       /></svg></span
                   ><input
-                    class="bg-[#ECECEC] h-[51px] w-full p-[10px] pl-[50px] rounded-lg text-[#000] font-work-sans"
+                    class="bg-[#ECECEC] h-[51px] w-full p-[10px] pl-[50px] rounded-lg text-[#000] font-work-sans outline-none focus:ring-2 focus:ring-black border-transparent"
                     required=""
                     type="email"
                     name="email"
@@ -137,7 +161,7 @@
                     </svg>
                   </span>
                   <input
-                    class="bg-[#ECECEC] h-[51px] w-full p-[10px] pl-[50px] pr-[50px] rounded-lg text-[#000] font-work-sans"
+                    class="bg-[#ECECEC] h-[51px] w-full p-[10px] pl-[50px] pr-[50px] rounded-lg text-[#000] font-work-sans outline-none focus:ring-2 focus:ring-black border-transparent"
                     required=""
                     type="password"
                     id="confirm-password"

@@ -35,3 +35,120 @@ h6 {
   background-size: cover;
   background-position: top center;
 }
+
+/* planned visit card css */
+.pv-tabs {
+  .active {
+    font-weight: 500;
+    color: #000;
+  }
+
+  .active:after {
+    background-color: #202020;
+    height: 3px;
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.pv-s-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-areas:
+    'client pickuppoint date'
+    'address time status'
+    'driver driver pdf';
+  row-gap: 15px;
+  padding: 10px;
+}
+
+.pv-pickuppoint {
+  grid-area: pickuppoint;
+}
+
+.pv-client {
+  grid-area: client;
+}
+.pv-address {
+  grid-area: address;
+}
+.pv-time {
+  grid-area: time;
+}
+.pv-date {
+  grid-area: date;
+}
+.pv-pdf {
+  grid-area: pdf;
+  align-self: center;
+  justify-content: center;
+  border-bottom: 0 !important;
+}
+.pv-status {
+  grid-area: status;
+}
+.pv-driver {
+  grid-area: driver;
+  border-bottom: 0 !important;
+}
+
+.pv-s-card > div {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* job board css */
+.jb-s-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-areas:
+    'jobid place status'
+    'time date address'
+    'driver driver driver'
+    'comment comment pdf';
+
+  gap: 15px;
+
+  .jb-jobid {
+    grid-area: jobid;
+  }
+
+  .jb-place {
+    grid-area: place;
+  }
+  .jb-address {
+    grid-area: address;
+  }
+  .jb-time {
+    grid-area: time;
+  }
+  .jb-date {
+    grid-area: date;
+  }
+  .jb-pdf {
+    grid-area: pdf;
+  }
+  .jb-status {
+    grid-area: status;
+  }
+  .jb-driver {
+    grid-area: driver;
+  }
+  .jb-comment {
+    grid-area: comment;
+  }
+}
+/* 
+
+jb-jobid
+jb-place
+jb-address
+jb-time
+jb-date
+jb-pdf
+jb-status
+jb-driver
+jb-comment
+*/
