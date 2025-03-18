@@ -156,12 +156,6 @@ h6 {
     'pdf pdf pdf'
     'comment comment comment';
   gap: 15px 25px;
-  /* grid-template-columns: auto auto auto 1fr auto auto auto;
-  grid-template-areas:
-    'jobid time date driver driver divider status'
-    'jobid place address address pdf divider comment';
-  gap: 24px 32px;
- */
 
   .vd-jobid {
     grid-area: jobid;
@@ -193,6 +187,12 @@ h6 {
   .vd-divider {
     grid-area: divider;
   }
+}
+
+/* table calendar css */
+.table-calendar td {
+  position: relative;
+  word-break: auto-phrase;
 }
 
 @media screen and (min-width: 1280px) {
